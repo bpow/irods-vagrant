@@ -37,7 +37,7 @@ Vagrant::Config.run do |config|
   # config.vm.share_folder "v-data", "/vagrant_data", "../data"
 
 
-  config.vm.provision :shell, :path => "irods.sh"
+  config.vm.provision :shell, :path => "eirods.sh"
 
   # Enable provisioning with Puppet stand alone.  Puppet manifests
   # are contained in a directory path relative to this Vagrantfile.
